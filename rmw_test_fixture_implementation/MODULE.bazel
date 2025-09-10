@@ -11,16 +11,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# Package information
         
 module(
-    name = "rmw_test_fixture",
+    name = "rmw_test_fixture_implementation",
     version = "0.15.1",
     compatibility_level = 0,
 )
-
-# Dependencies
-
-bazel_dep(name = "rmw", version = "7.9.0")
-bazel_dep(name = "rules_cc", version = "0.2.4")
